@@ -22,36 +22,52 @@
             .Amarela
             {
                 display: flex;
-                flex-direction: row;
+                flex-direction: column;
                 justify-content: space-around;
                 justify-items: center;
                 align-items: center;
                 align-content: center;
-                width: 800px;
+                width: 1000px;
                 height: 600px;
                 background-color: yellow;
-                font-size: 30px;
-                text-align: 15px;
-                padding: 15px;
                 margin-top: 20px;
                 margin-left: 20px;
                 border: 8px;
             }
             .Vermelho
             {
-                width: 80px;
+                width: 100px;
                 height: 200px;
                 background-color: red;
-                font-size: 30px;
-                text-align: justify;
-                padding: 15px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+            }
+            .Preto
+            {
+                width: 900px;
+                height: 200px;
+                background-color: black;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
             }
         </style>
 </head>
 <body>
     <div class="Amarela">
-        <div class="Vermelho"></div>
-        <div class="Vermelho"></div>
+        <div class="Preto">
+            <div class="Vermelho"></div>
+            <div class="Vermelho"></div>
+            <div class="Vermelho"></div>
+            <div class="Vermelho"></div>
+        </div>
+        <div class="Preto">
+            <div class="Vermelho"></div>
+            <div class="Vermelho"></div>
+            <div class="Vermelho"></div>
+            <div class="Vermelho"></div>
+        </div>
     </div>
 </body>
 </html>
